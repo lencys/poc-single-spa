@@ -25,20 +25,38 @@ a:hover {
 body {
   margin: 0;
   /*display: flex;*/
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  height: 100%;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr; /* 1. riadok pre menu, 2. riadok pre zvyšok */
+  height: 100vh;
+}
+
+nav {
+  padding: 1rem;
+}
+
+main {
+  overflow: auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  display: flex;
+  justify-content: center;
 }
 
 #app {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  /*padding: 2rem;*/
   text-align: center;
 }
 
