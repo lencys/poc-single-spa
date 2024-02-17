@@ -14,7 +14,7 @@
     "vite-plugin-single-spa": "^0.6.0"
   },
   "dependencies": {
-    "single-spa": "^6.",
+    "single-spa": "^6.0.0",
     "single-spa-layout": "^2.2.0"
   }
 }
