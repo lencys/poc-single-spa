@@ -9,4 +9,5 @@ export default defineConfig({
     serverPort: 4104,
     assetFileNames: `[name].[ext]`,
   })],
+  base: 'http://localhost:4104/'
 })

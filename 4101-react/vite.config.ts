@@ -13,5 +13,6 @@ export default defineConfig({
     )],
     server: {
         hmr: false
-    }
+    },
+    base: 'http://localhost:4101/'
 })

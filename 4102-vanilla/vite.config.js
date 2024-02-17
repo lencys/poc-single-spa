@@ -10,5 +10,6 @@ export default defineConfig({
             assetFileNames: `[name].[ext]`,
             spaEntryPoints: ['src/spa.js'],
         }
-    )]
-})
+    )],
+    base: 'http://localhost:4102/'
+});
