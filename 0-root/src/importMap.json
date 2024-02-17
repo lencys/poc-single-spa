@@ -1,9 +1,0 @@
-{
-  "imports": {
-    "@wja/react": "http://localhost:4101/dist/spa.js",
-    "@wja/vanilla": "http://localhost:4102/dist/spa.js",
-    "@wja/menu": "http://localhost:4103/dist/spa.ts",
-    "@wja/vue": "http://localhost:4104/dist/spa.ts",
-    "@wja/wjelements": "http://localhost:4105/dist/spa.js"
-  }
-}
