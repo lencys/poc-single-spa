@@ -8,6 +8,6 @@ export default defineConfig({
     type: 'mife',
     serverPort: 4104,
     assetFileNames: `[name].[ext]`,
-  })],
-  base: 'http://localhost:4104/'
-})
+    spaEntryPoints: ['src/spa.ts']
+  })]
+});

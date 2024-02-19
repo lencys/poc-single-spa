@@ -11,5 +11,5 @@ export default defineConfig({
             spaEntryPoints: ['src/spa.js'],
         }
     )],
-    base: 'http://localhost:4102/'
+    base: 'http://localhost:4102'
 });
