@@ -1,0 +1,20 @@
+{
+  "name": "elements",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "watch": "vite build --watch"
+  },
+  "devDependencies": {
+    "vite": "^5.1.0",
+    "vite-plugin-single-spa": "^0.6.0"
+  },
+  "dependencies": {
+    "single-spa-html": "^1.3.0",
+    "wj-elements": "^0.0.20"
+  }
+}
