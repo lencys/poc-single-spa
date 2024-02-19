@@ -8,7 +8,9 @@ class Menu extends HTMLElement {
         this.innerHTML = `
             <a href="/react" onclick="singleSpaNavigate(event)">React</a> |
             <a href="/vanilla" onclick="singleSpaNavigate(event)">Vanilla</a> |
-            <a href="/vue" onclick="singleSpaNavigate(event)">Vue</a>
+            <a href="/vue" onclick="singleSpaNavigate(event)">Vue</a> | 
+            <a href="/elements" onclick="singleSpaNavigate(event)">Elements</a> |
+            <a href="/wall" onclick="singleSpaNavigate(event)">Wall</a>
         `;
     }
 }
