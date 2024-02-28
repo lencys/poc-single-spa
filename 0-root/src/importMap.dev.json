@@ -5,6 +5,7 @@
     "@wja/menu": "http://localhost:4103/src/spa.js",
     "@wja/vue": "http://localhost:4104/src/spa.ts",
     "@wja/elements": "http://localhost:4105/src/spa.js",
-    "@wja/wall": "http://localhost:4106/src/spa.js"
+    "@wja/wall": "http://localhost:4106/src/spa.js",
+    "@wja/header": "http://localhost:4107/src/spa.js"
   }
 }
