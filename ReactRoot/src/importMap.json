@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "@test/parcels": "http://localhost:4202/parcels.js"
+  }
+}

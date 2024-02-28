@@ -1,0 +1,33 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+html {
+    --main-color: rgb(73, 13, 130);
+}
+
+div.app {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.content {
+    border-radius: 0.5em;
+    padding: 1.5em;
+    height: 100%;
+}
+
+.root-content {
+    @extend .content;
+    background-color: var(--main-color);
+    color: white;
+
+    & > h1 > span {
+        margin-right: 0.3em;
+    }
+}
+
+.parcel-content {
+    @extend .content;
+    border: 0.25em dashed (var(--main-color));
+}
